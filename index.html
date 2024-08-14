@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0">
+    <title>St Faith's Church</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+crossorigin="anonymous" referrerpolicy="no-referrer" />   
+<link href="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"> 
+<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet"/>
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+  <!--    Navigation  -->
+    <header class="header">
+        <a href="/" class="brand-logo-a-tag">
+          <img src="Images/logo.png"
+                alt="St Faith"> 
+          </a>
+
+        <nav class="navbar">
+            <ul class="navbar-lists" id="myTopnav">
+              <li class="dropdown">
+                <button class="dropbtn">
+                  Home
+                  </button>
+            </li>
+                  <li class="dropdown">
+                    <button class="dropbtn">
+                      About 
+                      <i class="fas fa-caret-down"></i>
+                      </button>
+                    <div class="dropdown-content">
+                        <a href="#" class="navbar-link">
+                          Who we are
+                          </a>
+                        <a href="#" class="navbar-link">
+                          History
+                          </a>
+                        <a href="#" class="navbar-link">
+                          Administrative Staff
+                          </a>
+                          <a href="#" class="navbar-link">
+                            Governance & PCC
+                            </a>
+                    </div>
+                </li>
+                  <li class="dropdown">
+                    <button class="dropbtn">
+                      Get Involved 
+                      <i class="fas fa-caret-down"></i>
+                      </button>
+                    <div class="dropdown-content">
+                        <a href="#" class="navbar-link">
+                          Join a ministry
+                          </a>
+                        <a href="#" class="navbar-link">
+                          Become a member
+                          </a>
+                        <a href="#" class="navbar-link">
+                          Career Opportunities
+                          </a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                  <button class="dropbtn">
+                    Ministries 
+                    <i class="fas fa-caret-down"></i>
+                    </button>
+                  <div class="dropdown-content">
+                      <a href="#" class="navbar-link">
+                        Children and Teens
+                        </a>
+                      <a href="#" class="navbar-link">
+                        Youth
+                        </a>
+                      <a href="#" class="navbar-link">
+                        Choir and Worship Team
+                        </a>
+                        <a href="#" class="navbar-link">
+                          Mission Team
+                          </a>
+                          <a href="#" class="navbar-link">
+                            KAMA
+                            </a>
+                            <a href="#" class="navbar-link">
+                              Mother's Union
+                              </a>
+                  </div>
+              </li>
+                <li class="dropdown">
+                  <button class="dropbtn">
+                    Activities
+                    </button>
+              </li>
+              <li class="dropdown">
+                <button class="dropbtn">
+                  Contact Us
+                  </button>
+            </li>
+                <li>
+                    <label class="switch">
+                        <input type="checkbox" 
+                               id="darkModeToggle">
+                        <span class="slider round"></span>
+                    </label>
+                </li>
+            </ul>
+            <a href="javascript:void(0);" 
+               class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+    </header>
+
+
+    <!--    Hero Section  -->
+
+    <div id="captioned-gallery">
+      <figure class="slider">
+        <figure>
+          <img src="Images/Bishop.jpg" alt>
+          <figcaption>Bishop</figcaption>
+        </figure>
+        <figure>
+          <img src="Images/Clergy.jpg" alt>
+          <figcaption>Clergy</figcaption>
+        </figure>
+        <figure>
+          <img src="Images/Brigade.jpg" alt>
+          <figcaption>Brigade</figcaption>
+        </figure>
+        <figure>
+          <img src="Images/Men.jpg" alt>
+          <figcaption>KAMA</figcaption>
+        </figure>
+        <figure>
+          <img src="Images/Choir.jpg" alt>
+          <figcaption>Choir</figcaption>
+        </figure>
+      </figure>
+    </div>
+        
+
+
+        <!--    Intro    -->
+    
+        <section class="faith" data-aos="zoom-in-down">
+          <h1>St Faith's Church | 2024 Theme</h1>
+          <p>"For we live by faith and not by sight" - 1 COR 5:17</p>
+      </section>
+
+      <!--   Member   -->
+      <div id="membership">
+        <div style="display: inline;">
+            <section class="member-container power-of-partnership">
+                <div class="member-row">
+                    <div class="member-col col-lg-6" data-aos="fade-down">
+                        <h3>Become a member</h3>
+                        <p>
+                           ACK St Faith loves new members and welcomes all in this journey of faith.
+                        </p>
+                        <div class="member-col col-lg-5 px-lg-2 ml-lg-5 mt-5 mt-lg-0">
+                            <div class="partner-box">
+                                <a href="">
+                                    <img class="img-fluid my-2" src="Images/logo.png" style="max-width: 185px;">
+                                </a>
+                                <p class="mb-0">
+                                    <span style="font-weight: 600;">Interested in joining ACK St Faith?</span>
+                                    Fill out this form.
+                                </p>
+                                <div>
+                                    <a class="font-weight-bold" href="">
+                                        Get Started
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+      </div>
+
+
+    <footer>
+        <p>&copy; 2024 ACK St Faith Church - 
+           Ongata Rongai. All rights reserved.
+          </p>
+    </footer>
+
+    <script src="script.js">
+       let next = document.querySelector(".next")
+            let prev = document.querySelector(".prev")
+
+            next.addEventListener('click', function () {
+                let items = document.querySelectorAll('.item')
+                document.querySelector('.slide').appendChild(items[0])
+                console.log(items);
+            })
+            prev.addEventListener('click', function () {
+                let items = document.querySelectorAll('.item')
+                document.querySelector('.slide').prepend(items[items.length - 1])
+            })
+    </script>
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+       AOS.init({
+         offset: 300,
+         duration: 1400,
+       });
+     </script>
+</body>
+
+</html>
