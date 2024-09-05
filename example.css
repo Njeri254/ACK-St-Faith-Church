@@ -444,7 +444,7 @@ font-weight: 400;
 
 .school-tours {
 min-height: 270px;
-background: url(Images/Bishop.jpg) no-repeat center left;
+background: url(Bishop.jpg) no-repeat center left;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -454,7 +454,7 @@ border-radius: 30px;
 }
 .poverty {
 min-height: 270px;
-background: url(Images/Brigade.jpg) no-repeat center left;
+background: url(Brigade.jpg) no-repeat center left;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -464,7 +464,7 @@ border-radius: 30px;
 }
 .livelihoods {
 min-height:270px;
-background: url(Images/Choir.jpg) no-repeat center left;
+background: url(Choir.jpg) no-repeat center left;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -474,7 +474,7 @@ border-radius: 30px;
 }
 .rescue-shelters {
 min-height: 270px;
-background: url(Images/homeless.jpg) no-repeat center left;
+background: url(homeless.jpg) no-repeat center left;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
