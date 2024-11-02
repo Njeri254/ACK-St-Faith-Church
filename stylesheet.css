@@ -329,7 +329,7 @@ button {
   width: 100%;
   overflow: hidden;
   position: relative;
-  background: url(Images/hero.jpeg);
+  background: url(hero.jpeg);
   background-size: cover;
   background-position: center;
   padding: 0;
