@@ -97,7 +97,7 @@ button {
 
 .menu {
   position: relative;
-  background: maroon;
+  background: #10182F;
   z-index: 1;
 }
 
@@ -145,7 +145,7 @@ button {
   display: flex;
   flex-direction: column;
   min-width: 230px;
-  background-color: var(--white);
+  background-color: #10182F;
   border-radius: 10px;
   position: absolute;
   top: 36px;
