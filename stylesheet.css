@@ -41,7 +41,7 @@ body {
 .sticky {
   z-index: 9999;
   position: fixed;
-  background: maroon;
+  background: #10182F;
   width: 100%;
 }
 ul {
@@ -63,7 +63,7 @@ button {
 
 .btn {
   display: block;
-  background-color: var(--primary-color);
+  background-color: #10182F;
   color: var(--white);
   text-align: center;
   padding: 0.6rem 1.4rem;
@@ -107,11 +107,11 @@ button {
 }
 
 .menu-bar li:first-child ul:nth-child(1) {
-  border-right: var(--border);
+  border-right: #10182F;
 }
 
 .menu-bar li:nth-child(n + 2) ul:nth-child(1) {
-  border-bottom: var(--border);
+  border-bottom: #10182F;
 }
 
 .menu-bar .dropdown-link-title {
